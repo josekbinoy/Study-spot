@@ -1,0 +1,15 @@
+/* Peak Rush chart - uses your existing --o (orange) variable if present */
+.pr-card{background:#fff;border:1px solid #ece4d6;border-radius:14px;box-shadow:0 3px 10px #0000000a;padding:16px 18px;margin:16px 0}
+.pr-head{display:flex;justify-content:space-between;align-items:center}.pr-head h3{margin:0;font-size:16px}
+.pr-badge{background:#fde9d9;color:var(--o,#f26a1b);font-size:10px;font-weight:600;padding:3px 10px;border-radius:10px}
+.pr-sub{margin:4px 0 10px;font-size:12px;color:#777}
+.pr-sum{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}.pr-chip{font-size:11px;font-weight:600;padding:4px 10px;border-radius:12px}
+.pr-chip.peak{background:#fde9d9;color:var(--o,#f26a1b)}.pr-chip.quiet{background:#dff0d8;color:#2e7d32}
+.pr-svg{width:100%;height:auto;display:block}.pr-grid{stroke:#eee4d4;stroke-width:1}.pr-ax{font-size:10px;fill:#888;font-family:inherit}
+.pr-band.peak{fill:#f26a1b;opacity:.08}.pr-band.quiet{fill:#5f9d4d;opacity:.1}
+.pr-bl{font-size:10px;font-weight:600;font-family:inherit}.pr-bl.peak{fill:var(--o,#f26a1b)}.pr-bl.quiet{fill:#2e7d32}
+.pr-bar{cursor:pointer;outline:none}.pr-bar.peak{fill:var(--o,#f26a1b)}.pr-bar.busy{fill:#f9b98a}.pr-bar.quiet{fill:#5f9d4d}
+.pr-bar:hover,.pr-bar:focus{stroke:#222;stroke-width:1.5}
+.pr-read{margin:6px 0 8px;font-size:12px;color:#444;min-height:18px}
+.pr-leg{display:flex;flex-wrap:wrap;gap:14px;font-size:11px;color:#666}.pr-leg span:before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.pr-leg .peak:before{background:var(--o,#f26a1b)}.pr-leg .busy:before{background:#f9b98a}.pr-leg .quiet:before{background:#5f9d4d}
