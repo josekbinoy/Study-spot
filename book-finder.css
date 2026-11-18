@@ -1,0 +1,20 @@
+/* Book Finder - orange & white Study Spot style */
+.bf{max-width:1100px;margin:0 auto;padding:30px 24px}.bf h1{font-size:28px;margin:0 0 4px}.bf-sub{color:#777;margin:0 0 14px}
+.bf-demo{background:#fff1cc;color:#7a5a00;border-radius:10px;padding:10px 14px;font-size:12px;margin-bottom:16px}
+.bf-search{display:flex;gap:8px;background:#fff;border:1px solid #ece4d6;border-radius:30px;padding:6px 8px 6px 18px;box-shadow:0 4px 14px #0001;align-items:center}
+.bf-search input{flex:1;border:0;outline:0;font-size:13px;background:none;min-width:0}.bf-search select{border:0;background:#fdf3ea;border-radius:16px;padding:8px 10px;font-size:12px}
+.bf-chips{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 10px}
+.bf-chip{border:1px solid #ece4d6;background:#fff;border-radius:20px;padding:6px 14px;font-size:12px;cursor:pointer;font-family:inherit}.bf-chip small{color:#999;margin-left:4px}
+.bf-chip.on{background:var(--o,#f26a1b);border-color:var(--o,#f26a1b);color:#fff}.bf-chip.on small{color:#ffe3d0}
+.bf-filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:6px}.bf-filters select{border:1px solid #ece4d6;background:#fff;border-radius:10px;padding:9px 12px;font-size:12px;max-width:100%}
+.bf-ck{font-size:12px;color:#444}.bf-filters a{color:var(--o,#f26a1b);font-size:12px;margin-left:auto}.bf-count{font-size:12px;color:#777;margin:10px 0}
+.bf-card{display:grid;grid-template-columns:52px 1fr auto;gap:16px;background:#fff;border:1px solid #ece4d6;border-radius:14px;box-shadow:0 3px 10px #0000000a;padding:14px 16px;margin-bottom:12px;align-items:start}
+.bf-ic{width:52px;height:64px;background:#fde9d9;border-radius:8px;display:grid;place-items:center;font-size:24px}
+.bf-card h3{margin:0 0 4px;font-size:15px}.bf-meta{margin:2px 0;font-size:12px;color:#666}
+.bf-tag{background:#fde9d9;color:var(--o,#f26a1b);font-size:9px;font-weight:700;padding:2px 7px;border-radius:8px;vertical-align:2px}
+.bf-av{font-size:11px;font-weight:600;padding:4px 12px;border-radius:12px;white-space:nowrap}.bf-av.yes{background:#dff0d8;color:#2e7d32}.bf-av.no{background:#eee;color:#777}
+.bf details{margin-top:8px}.bf summary{cursor:pointer;color:var(--o,#f26a1b);font-size:12px;font-weight:600}
+.bf-t{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}.bf-t th{text-align:left;color:#888;font-weight:500;padding:6px 8px;border-bottom:1px solid #ece4d6}.bf-t td{padding:6px 8px;border-bottom:1px solid #f4eee3}
+.bf-st{font-size:11px;font-weight:600;padding:2px 10px;border-radius:10px}.bf-st.available{background:#dff0d8;color:#2e7d32}.bf-st.borrowed{background:#fde9d9;color:var(--o,#f26a1b)}
+.bf-empty{background:#fff;border:1px dashed #ece4d6;border-radius:14px;padding:24px;text-align:center;color:#777}
+@media(max-width:700px){.bf-card{grid-template-columns:1fr}.bf-ic{display:none}.bf-search{flex-wrap:wrap;border-radius:18px}.bf-t{display:block;overflow-x:auto}}
